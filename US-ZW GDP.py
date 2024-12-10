@@ -1,10 +1,10 @@
 USA_GDP = 3000
 Zimbabwe_GDP = 2
 
-USA_GDP_growth = 0.03
+USA_GDP_growth = 0.025
 Zimbabwe_GDP_growth = 0.05
 
-year = 0
+year = 2000
 
 while USA_GDP > Zimbabwe_GDP:
     USA_GDP = (USA_GDP * (1 + USA_GDP_growth))
